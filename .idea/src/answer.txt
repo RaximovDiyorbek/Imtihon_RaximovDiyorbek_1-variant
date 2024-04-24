@@ -1,8 +1,19 @@
-1)
-2)Map malumotlarni key va value to'plami tarzda saqlaydi. endi HashMapga keladigan bo'lsak
- malumotlarni
+1)Queue bu o'zi navbat. Biz Queuelarni navbatlarda ishlatamiz
+Queue bu elementlarni ustun qilib qo'shib ketaveradi buda faqat birinchi element bo'ladi endi Dequeue esa(double-ended queue) bunda boshi bilan oxirgi elementlar bo'ladi
+Yani bizga navbatning boshi aniq boladigan va kerak bo'ladigan bo'lsak Queue ishlatamiz va Navbatning boshi va oxiri aniq bo'ladigan bo'lsa dequeueni ishlatganimiz avzal
+Queue bir tomonlama Dequeu esa ikki tomonlama
+2) HashMap da value lar key larning hash kodiga asoslangan holda saqlanadi. Shu sababdan HashMap (hash larning mapi) deyiladi.
+HashMap  bu class bo'lib u Map interface dan implementatsiya olgan va Map dagi barcha metodlarini realizatsiya qilgan.
+hashtable strukturasiga asoslangan holda elementlarni saqlaydi. Ya'ni Elementlarni saqlash uchun Array va LinkedList kombinatsialaridan foydalanadi.
+Ro'yxatga qo'shish tartibi saqlanib qolmaydi va u key larning hash kodiga asosan bo'ladi.
+Dublikatlar key kalitlar mumkin emas lekin istagancha dublicat value qo'shish mumkin.
+Null qiymatni key sifatida ishlatsak bo'ladi (faqat birmatda)
+
 3)Biz Enumdan foydalanishdan maqsad project davomida o'zgarmas constantalarni oldidan malum bo'lsa shu berib ketamiz
+Agar biz enum o'zniga String ishlatadigan bo'lsak Stringga istalgan qiymatni berishimiz mumkin enumda esa cheklangan.
 masalan bitta projectda admin, super_admin manager va hokazo rollari  bo'lsa enum clasida berib ketamiz.enam clasidagi fieldlar defalult public static final bo'ladi.
 
 4)Exception heirarcy bu Object->Thorable->bu yana 2 ga bolinnadi- Exeption va Error
-Exeption ham 2 ga bo'linadi: RuntimeExeption va CompileTimeExeption
+Exeption ham 2 ga bo'linadi: CheckedExeption va UncheckedExeption
+CheckedExeption-CompileTimeExeption; UncheckedExeption->RuntimeExeption
+
