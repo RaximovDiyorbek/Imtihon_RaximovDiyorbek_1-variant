@@ -1,6 +1,6 @@
 public class Task3 {
     public static void main(String[] args) {
-        String[] arrays = {"cd","ac","dc","zz","ca"};
+    String[] arrays = {"cd","ac","dc","zz","ca"};
 
         System.out.println(task3(arrays));
     }
