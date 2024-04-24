@@ -1,0 +1,8 @@
+1)
+2)Map malumotlarni key va value to'plami tarzda saqlaydi. endi HashMapga keladigan bo'lsak
+ malumotlarni
+3)Biz Enumdan foydalanishdan maqsad project davomida o'zgarmas constantalarni oldidan malum bo'lsa shu berib ketamiz
+masalan bitta projectda admin, super_admin manager va hokazo rollari  bo'lsa enum clasida berib ketamiz.enam clasidagi fieldlar defalult public static final bo'ladi.
+
+4)Exception heirarcy bu Object->Thorable->bu yana 2 ga bolinnadi- Exeption va Error
+Exeption ham 2 ga bo'linadi: RuntimeExeption va CompileTimeExeption
